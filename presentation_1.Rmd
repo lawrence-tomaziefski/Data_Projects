@@ -1,0 +1,42 @@
+---
+title: "My Presentation"
+author: "Lawrence Tomaziefski"
+date: "December 31, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## My New Slide
+### A top level subheading
+- bullet point
+
+#### Smaller subheading
++ sub-point
+
+***
+A slide without a title
+
+- Bullet a
+    + Sub-Bullet a1
+- Bullet b
+
+1. Item a 
+2. Item 1
+    a. sub-sub point
+
+***
+
+*italicized*
+
+**bold**
+
+`for (i %in% 1 : 10)`
+
+***
+
+```{r, comment = "" } 
+head(airquality)
+```
